@@ -1,0 +1,1664 @@
+{
+    "mutations": [],
+    "queries": [
+        {
+            "dehydratedAt": 1778138179690,
+            "state": {
+                "dataUpdateCount": 0,
+                "dataUpdatedAt": 0,
+                "error": null,
+                "errorUpdateCount": 0,
+                "errorUpdatedAt": 0,
+                "fetchFailureCount": 0,
+                "fetchFailureReason": null,
+                "fetchMeta": null,
+                "isInvalidated": false,
+                "status": "pending",
+                "fetchStatus": "idle"
+            },
+            "queryKey": [
+                "zuplo-build-check",
+                null,
+                "/__zuplo/docs"
+            ],
+            "queryHash": "[\"zuplo-build-check\",null,\"/__zuplo/docs\"]"
+        },
+        {
+            "dehydratedAt": 1778138179690,
+            "state": {
+                "dataUpdateCount": 0,
+                "dataUpdatedAt": 0,
+                "error": null,
+                "errorUpdateCount": 0,
+                "errorUpdatedAt": 0,
+                "fetchFailureCount": 0,
+                "fetchFailureReason": null,
+                "fetchMeta": null,
+                "isInvalidated": false,
+                "status": "pending",
+                "fetchStatus": "idle"
+            },
+            "queryKey": [
+                "refresh-user-profile"
+            ],
+            "queryHash": "[\"refresh-user-profile\"]"
+        },
+        {
+            "dehydratedAt": 1778138179690,
+            "state": {
+                "data": [
+                    {
+                        "type": "link",
+                        "to": "/pro-api-reference",
+                        "label": "Information"
+                    },
+                    {
+                        "type": "category",
+                        "label": "Pro API",
+                        "items": [
+                            {
+                                "type": "category",
+                                "label": "Cryptocurrency",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/cryptocurrency",
+                                    "file": "/pro-api-reference/cryptocurrency",
+                                    "label": "Cryptocurrency"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Airdrop",
+                                        "to": "/pro-api-reference/cryptocurrency#airdrop",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Airdrops",
+                                        "to": "/pro-api-reference/cryptocurrency#airdrops",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Categories",
+                                        "to": "/pro-api-reference/cryptocurrency#categories",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Category",
+                                        "to": "/pro-api-reference/cryptocurrency#category",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "CoinMarketCap ID Map",
+                                        "to": "/pro-api-reference/cryptocurrency#coinmarketcap-id-map",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Cryptocurrency Metadata",
+                                        "to": "/pro-api-reference/cryptocurrency#cryptocurrency-metadata",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Listings Historical",
+                                        "to": "/pro-api-reference/cryptocurrency#listings-historical",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Listings Latest",
+                                        "to": "/pro-api-reference/cryptocurrency#listings-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Listings New",
+                                        "to": "/pro-api-reference/cryptocurrency#listings-new",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Trending Gainers & Losers",
+                                        "to": "/pro-api-reference/cryptocurrency#trending-gainers-losers",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Trending Latest",
+                                        "to": "/pro-api-reference/cryptocurrency#trending-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Trending Most Visited",
+                                        "to": "/pro-api-reference/cryptocurrency#trending-most-visited",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Cryptocurrency Market Pairs Latest",
+                                        "to": "/pro-api-reference/cryptocurrency#cryptocurrency-market-pairs-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "OHLCV Historical",
+                                        "to": "/pro-api-reference/cryptocurrency#ohlcv-historical",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "OHLCV Latest",
+                                        "to": "/pro-api-reference/cryptocurrency#ohlcv-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Price Performance Stats",
+                                        "to": "/pro-api-reference/cryptocurrency#price-performance-stats",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Cryptocurrency Quotes Historical",
+                                        "to": "/pro-api-reference/cryptocurrency#cryptocurrency-quotes-historical",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Cryptocurrency Quotes Latest",
+                                        "to": "/pro-api-reference/cryptocurrency#cryptocurrency-quotes-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Cryptocurrency Listings",
+                                        "to": "/pro-api-reference/cryptocurrency#cryptocurrency-listings",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Simple Price",
+                                        "to": "/pro-api-reference/cryptocurrency#simple-price",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "Exchange",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/exchange",
+                                    "file": "/pro-api-reference/exchange",
+                                    "label": "Exchange"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Exchange Assets",
+                                        "to": "/pro-api-reference/exchange#exchange-assets",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Metadata",
+                                        "to": "/pro-api-reference/exchange#metadata",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "CoinMarketCap ID Map",
+                                        "to": "/pro-api-reference/exchange#coinmarketcap-id-map-2",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Exchange Listings Latest",
+                                        "to": "/pro-api-reference/exchange#exchange-listings-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Market Pairs Latest",
+                                        "to": "/pro-api-reference/exchange#market-pairs-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Quotes Historical",
+                                        "to": "/pro-api-reference/exchange#quotes-historical",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Quotes Latest",
+                                        "to": "/pro-api-reference/exchange#quotes-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "Global Metrics",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/global-metrics",
+                                    "file": "/pro-api-reference/global-metrics",
+                                    "label": "Global Metrics"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "CMC Crypto Fear and Greed Historical",
+                                        "to": "/pro-api-reference/global-metrics#cmc-crypto-fear-and-greed-historical",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "CMC Crypto Fear and Greed Latest",
+                                        "to": "/pro-api-reference/global-metrics#cmc-crypto-fear-and-greed-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Quotes Historical",
+                                        "to": "/pro-api-reference/global-metrics#quotes-historical-2",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Quotes Latest",
+                                        "to": "/pro-api-reference/global-metrics#quotes-latest-2",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Altcoin Season Index Latest",
+                                        "to": "/pro-api-reference/global-metrics#altcoin-season-index-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Altcoin Season Index Historical",
+                                        "to": "/pro-api-reference/global-metrics#altcoin-season-index-historical",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "Content",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/content",
+                                    "file": "/pro-api-reference/content",
+                                    "label": "Content"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Content Latest",
+                                        "to": "/pro-api-reference/content#content-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Content Post Comments",
+                                        "to": "/pro-api-reference/content#content-post-comments",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Content Latest Posts",
+                                        "to": "/pro-api-reference/content#content-latest-posts",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Content Top Posts",
+                                        "to": "/pro-api-reference/content#content-top-posts",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "Community",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/community",
+                                    "file": "/pro-api-reference/community",
+                                    "label": "Community"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Community Trending Tokens",
+                                        "to": "/pro-api-reference/community#community-trending-tokens",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Community Trending Topics",
+                                        "to": "/pro-api-reference/community#community-trending-topics",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "CMC Index",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/cmc-index",
+                                    "file": "/pro-api-reference/cmc-index",
+                                    "label": "CMC Index"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "CoinMarketCap 100 Index Historical",
+                                        "to": "/pro-api-reference/cmc-index#coinmarketcap-100-index-historical",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "CoinMarketCap 100 Index Latest",
+                                        "to": "/pro-api-reference/cmc-index#coinmarketcap-100-index-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "CoinMarketCap 20 Index Historical",
+                                        "to": "/pro-api-reference/cmc-index#coinmarketcap-20-index-historical",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "CoinMarketCap 20 Index Latest",
+                                        "to": "/pro-api-reference/cmc-index#coinmarketcap-20-index-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "Crypto Others",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/crypto-others",
+                                    "file": "/pro-api-reference/crypto-others",
+                                    "label": "Crypto Others"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Statistics Latest",
+                                        "to": "/pro-api-reference/crypto-others#statistics-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": true,
+                        "collapsed": true
+                    },
+                    {
+                        "type": "category",
+                        "label": "Dex API",
+                        "items": [
+                            {
+                                "type": "category",
+                                "label": "Token",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/token",
+                                    "file": "/pro-api-reference/token",
+                                    "label": "Token"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Get trending tokens",
+                                        "to": "/pro-api-reference/token#get-trending-tokens",
+                                        "badge": {
+                                            "label": "post",
+                                            "color": "blue",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Batch query tokens",
+                                        "to": "/pro-api-reference/token#batch-query-tokens",
+                                        "badge": {
+                                            "label": "post",
+                                            "color": "blue",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Batch get token prices",
+                                        "to": "/pro-api-reference/token#batch-get-token-prices",
+                                        "badge": {
+                                            "label": "post",
+                                            "color": "blue",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get new tokens",
+                                        "to": "/pro-api-reference/token#get-new-tokens",
+                                        "badge": {
+                                            "label": "post",
+                                            "color": "blue",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get meme tokens",
+                                        "to": "/pro-api-reference/token#get-meme-tokens",
+                                        "badge": {
+                                            "label": "post",
+                                            "color": "blue",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get top gainers and losers",
+                                        "to": "/pro-api-reference/token#get-top-gainers-and-losers",
+                                        "badge": {
+                                            "label": "post",
+                                            "color": "blue",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Pairs Listings Latest",
+                                        "to": "/pro-api-reference/token#pairs-listings-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Quotes Latest",
+                                        "to": "/pro-api-reference/token#quotes-latest-3",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get token detail",
+                                        "to": "/pro-api-reference/token#get-token-detail",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get token price",
+                                        "to": "/pro-api-reference/token#get-token-price",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get token pools",
+                                        "to": "/pro-api-reference/token#get-token-pools",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Query token liquidity",
+                                        "to": "/pro-api-reference/token#query-token-liquidity",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get swap list",
+                                        "to": "/pro-api-reference/token#get-swap-list",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get security detail",
+                                        "to": "/pro-api-reference/token#get-security-detail",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Search tokens",
+                                        "to": "/pro-api-reference/token#search-tokens",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get liquidity change list",
+                                        "to": "/pro-api-reference/token#get-liquidity-change-list",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "Platform",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/platform",
+                                    "file": "/pro-api-reference/platform",
+                                    "label": "Platform"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Get platform list",
+                                        "to": "/pro-api-reference/platform#get-platform-list",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get platform detail",
+                                        "to": "/pro-api-reference/platform#get-platform-detail",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "Holder",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/holder",
+                                    "file": "/pro-api-reference/holder",
+                                    "label": "Holder"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Get holders list",
+                                        "to": "/pro-api-reference/holder#get-holders-list",
+                                        "badge": {
+                                            "label": "post",
+                                            "color": "blue",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get holder detail",
+                                        "to": "/pro-api-reference/holder#get-holder-detail",
+                                        "badge": {
+                                            "label": "post",
+                                            "color": "blue",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get holder trend list",
+                                        "to": "/pro-api-reference/holder#get-holder-trend-list",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get holder tag count",
+                                        "to": "/pro-api-reference/holder#get-holder-tag-count",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get holder count",
+                                        "to": "/pro-api-reference/holder#get-holder-count",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "OHLCV",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/ohlcv",
+                                    "file": "/pro-api-reference/ohlcv",
+                                    "label": "OHLCV"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Get K-line points",
+                                        "to": "/pro-api-reference/ohlcv#get-k-line-points",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get K-line candles",
+                                        "to": "/pro-api-reference/ohlcv#get-k-line-candles",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": true,
+                        "collapsed": true
+                    },
+                    {
+                        "type": "category",
+                        "label": "Tools",
+                        "link": {
+                            "type": "doc",
+                            "path": "/pro-api-reference/tools",
+                            "file": "/pro-api-reference/tools",
+                            "label": "Tools"
+                        },
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "type": "link",
+                                "label": "Fiat ID Map",
+                                "to": "/pro-api-reference/tools#fiat-id-map",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Key Info",
+                                "to": "/pro-api-reference/tools#key-info",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Postman Conversion v1",
+                                "to": "/pro-api-reference/tools#postman-conversion-v1",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Price Conversion v2",
+                                "to": "/pro-api-reference/tools#price-conversion-v2",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "category",
+                        "label": "Deprecated",
+                        "link": {
+                            "type": "doc",
+                            "path": "/pro-api-reference/deprecated",
+                            "file": "/pro-api-reference/deprecated",
+                            "label": "Deprecated"
+                        },
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "type": "link",
+                                "label": "Metadata v1 (deprecated)",
+                                "to": "/pro-api-reference/deprecated#metadata-v1-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Price Conversion v1 (deprecated)",
+                                "to": "/pro-api-reference/deprecated#price-conversion-v1-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Market Pairs Latest v1 (deprecated)",
+                                "to": "/pro-api-reference/deprecated#market-pairs-latest-v1-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "OHLCV Historical v1 (deprecated)",
+                                "to": "/pro-api-reference/deprecated#ohlcv-historical-v1-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "OHLCV Latest v1 (deprecated)",
+                                "to": "/pro-api-reference/deprecated#ohlcv-latest-v1-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Price Performance Stats v1 (deprecated)",
+                                "to": "/pro-api-reference/deprecated#price-performance-stats-v1-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Quotes Historical v1 (deprecated)",
+                                "to": "/pro-api-reference/deprecated#quotes-historical-v1-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Quotes Latest v1 (deprecated)",
+                                "to": "/pro-api-reference/deprecated#quotes-latest-v1-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Quotes Historical v2",
+                                "to": "/pro-api-reference/deprecated#quotes-historical-v2",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Quotes Latest v2",
+                                "to": "/pro-api-reference/deprecated#quotes-latest-v2",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "FCAS Listings Latest (deprecated)",
+                                "to": "/pro-api-reference/deprecated#fcas-listings-latest-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "FCAS Quotes Latest (deprecated)",
+                                "to": "/pro-api-reference/deprecated#fcas-quotes-latest-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Trades Latest",
+                                "to": "/pro-api-reference/deprecated#trades-latest",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "OHLCV Latest",
+                                "to": "/pro-api-reference/deprecated#ohlcv-latest-2",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "OHLCV Historical",
+                                "to": "/pro-api-reference/deprecated#ohlcv-historical-2",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "CoinMarketCap ID Map",
+                                "to": "/pro-api-reference/deprecated#coinmarketcap-id-map-3",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "DEX Listings Latest",
+                                "to": "/pro-api-reference/deprecated#dex-listings-latest",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "DEX Metadata",
+                                "to": "/pro-api-reference/deprecated#dex-metadata",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "link",
+                        "label": "Schemas",
+                        "to": "/pro-api-reference/~schemas"
+                    }
+                ],
+                "dataUpdateCount": 1,
+                "dataUpdatedAt": 1778138179611,
+                "error": null,
+                "errorUpdateCount": 0,
+                "errorUpdatedAt": 0,
+                "fetchFailureCount": 0,
+                "fetchFailureReason": null,
+                "fetchMeta": null,
+                "isInvalidated": false,
+                "status": "success",
+                "fetchStatus": "idle"
+            },
+            "queryKey": [
+                "plugin-navigation",
+                "/pro-api-reference/platform"
+            ],
+            "queryHash": "[\"plugin-navigation\",\"/pro-api-reference/platform\"]"
+        },
+        {
+            "dehydratedAt": 1778138179690,
+            "state": {
+                "data": {
+                    "schema": {
+                        "servers": [
+                            {
+                                "url": "https://pro-api.coinmarketcap.com"
+                            }
+                        ],
+                        "description": "Modern API for cryptocurrency data. Get real-time prices, market data, listings, and historical information through powerful developer endpoints.",
+                        "summary": null,
+                        "title": "CoinMarketCap Cryptocurrency API Documentation",
+                        "url": "https://pro-api.coinmarketcap.com",
+                        "version": "2.0.4",
+                        "tag": {
+                            "name": "Platform",
+                            "description": "##### DEX platform and network information. This category includes 2 endpoints:\n- [/v1/dex/platform/list](/pro-api-reference/platform#get-platform-list) - Get Platform List\n- [/v1/dex/platform/detail](/pro-api-reference/platform#get-platform-detail) - Get Platform Detail",
+                            "operations": [
+                                {
+                                    "slug": "get-platform-list",
+                                    "summary": "Get platform list",
+                                    "method": "get",
+                                    "description": "Get list of all supported platforms",
+                                    "operationId": "getPlatformList",
+                                    "contentTypes": [],
+                                    "path": "/v1/dex/platform/list",
+                                    "deprecated": null,
+                                    "extensions": {},
+                                    "servers": [
+                                        {
+                                            "url": "https://pro-api.coinmarketcap.com",
+                                            "description": null
+                                        }
+                                    ],
+                                    "parameters": [
+                                        {
+                                            "name": "X-CMC_PRO_API_KEY",
+                                            "in": "header",
+                                            "description": "Your CoinMarketCap Pro API key",
+                                            "required": true,
+                                            "schema": {
+                                                "type": "string",
+                                                "default": "YOUR_API_KEY"
+                                            },
+                                            "style": null,
+                                            "explode": null,
+                                            "allowReserved": null,
+                                            "examples": []
+                                        }
+                                    ],
+                                    "security": [
+                                        {
+                                            "schemes": [
+                                                {
+                                                    "scopes": [],
+                                                    "scheme": {
+                                                        "name": "ApiKeyAuth",
+                                                        "type": "apiKey",
+                                                        "description": "Your CoinMarketCap Pro API key. Get one at https://pro.coinmarketcap.com/signup",
+                                                        "in": "header",
+                                                        "paramName": "X-CMC_PRO_API_KEY",
+                                                        "scheme": null,
+                                                        "bearerFormat": null,
+                                                        "openIdConnectUrl": null,
+                                                        "flows": null
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "requestBody": {
+                                        "content": [],
+                                        "description": null,
+                                        "required": null
+                                    },
+                                    "responses": [
+                                        {
+                                            "statusCode": "200",
+                                            "links": null,
+                                            "description": "OK",
+                                            "content": [
+                                                {
+                                                    "examples": [],
+                                                    "mediaType": "application/json",
+                                                    "encoding": null,
+                                                    "schema": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "id": {
+                                                                    "type": "integer",
+                                                                    "description": "Unique platform ID",
+                                                                    "format": "int32",
+                                                                    "example": 14
+                                                                },
+                                                                "n": {
+                                                                    "type": "string",
+                                                                    "description": "Platform name",
+                                                                    "example": "Ethereum"
+                                                                },
+                                                                "i": {
+                                                                    "type": "string",
+                                                                    "description": "Icon URL for the platform",
+                                                                    "example": "https://cdn.example.com/icons/eth.png"
+                                                                },
+                                                                "uf": {
+                                                                    "type": "string",
+                                                                    "description": "URL format for block explorer (contract/token)",
+                                                                    "example": "https://etherscan.io/token/{tokenAddress}"
+                                                                },
+                                                                "dn": {
+                                                                    "type": "string",
+                                                                    "description": "Number of supported DEXs on this platform",
+                                                                    "example": "12"
+                                                                },
+                                                                "txuf": {
+                                                                    "type": "string",
+                                                                    "description": "URL format for viewing transactions",
+                                                                    "example": "https://etherscan.io/tx/{txHash}"
+                                                                },
+                                                                "v": {
+                                                                    "type": "boolean",
+                                                                    "description": "Whether the platform is visible in the UI",
+                                                                    "example": true
+                                                                },
+                                                                "p": {
+                                                                    "type": "boolean",
+                                                                    "description": "Whether the platform is pinned (e.g., prioritized display)",
+                                                                    "example": false
+                                                                },
+                                                                "addrUrl": {
+                                                                    "type": "string",
+                                                                    "description": "URL format for address explorer",
+                                                                    "example": "https://etherscan.io/address/{address}"
+                                                                },
+                                                                "chId": {
+                                                                    "type": "integer",
+                                                                    "description": "Internal chain ID",
+                                                                    "format": "int32",
+                                                                    "example": 1
+                                                                },
+                                                                "puf": {
+                                                                    "type": "string",
+                                                                    "description": "URL format for pool explorer",
+                                                                    "example": "https://dexscan.io/pool/{poolAddress}"
+                                                                },
+                                                                "wcId": {
+                                                                    "type": "integer",
+                                                                    "description": "Wrapped native token ID (e.g., WETH)",
+                                                                    "format": "int32",
+                                                                    "example": 2001
+                                                                },
+                                                                "hl": {
+                                                                    "type": "integer",
+                                                                    "description": "Whether the platform is highlighted",
+                                                                    "format": "int32",
+                                                                    "example": 1
+                                                                },
+                                                                "ho": {
+                                                                    "type": "integer",
+                                                                    "description": "Display order for highlighted platforms",
+                                                                    "format": "int32",
+                                                                    "example": 3
+                                                                },
+                                                                "pltA": {
+                                                                    "type": "string",
+                                                                    "description": "platform acronym",
+                                                                    "example": "ETH"
+                                                                },
+                                                                "cid": {
+                                                                    "type": "integer",
+                                                                    "format": "int32"
+                                                                }
+                                                            },
+                                                            "description": "Data Transfer Object representing a supported blockchain platform",
+                                                            "__$ref": "#/components/schemas/PlatformDTO"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "slug": "get-platform-detail",
+                                    "summary": "Get platform detail",
+                                    "method": "get",
+                                    "description": "Get detailed information for a specific platform",
+                                    "operationId": "getPlatformDetail",
+                                    "contentTypes": [],
+                                    "path": "/v1/dex/platform/detail",
+                                    "deprecated": null,
+                                    "extensions": {},
+                                    "servers": [
+                                        {
+                                            "url": "https://pro-api.coinmarketcap.com",
+                                            "description": null
+                                        }
+                                    ],
+                                    "parameters": [
+                                        {
+                                            "name": "X-CMC_PRO_API_KEY",
+                                            "in": "header",
+                                            "description": "Your CoinMarketCap Pro API key",
+                                            "required": true,
+                                            "schema": {
+                                                "type": "string",
+                                                "default": "YOUR_API_KEY"
+                                            },
+                                            "style": null,
+                                            "explode": null,
+                                            "allowReserved": null,
+                                            "examples": []
+                                        },
+                                        {
+                                            "name": "platformName",
+                                            "in": "query",
+                                            "description": "Platform name",
+                                            "required": false,
+                                            "schema": {
+                                                "type": "string"
+                                            },
+                                            "style": null,
+                                            "explode": null,
+                                            "allowReserved": null,
+                                            "examples": []
+                                        }
+                                    ],
+                                    "security": [
+                                        {
+                                            "schemes": [
+                                                {
+                                                    "scopes": [],
+                                                    "scheme": {
+                                                        "name": "ApiKeyAuth",
+                                                        "type": "apiKey",
+                                                        "description": "Your CoinMarketCap Pro API key. Get one at https://pro.coinmarketcap.com/signup",
+                                                        "in": "header",
+                                                        "paramName": "X-CMC_PRO_API_KEY",
+                                                        "scheme": null,
+                                                        "bearerFormat": null,
+                                                        "openIdConnectUrl": null,
+                                                        "flows": null
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "requestBody": {
+                                        "content": [],
+                                        "description": null,
+                                        "required": null
+                                    },
+                                    "responses": [
+                                        {
+                                            "statusCode": "200",
+                                            "links": null,
+                                            "description": "OK",
+                                            "content": [
+                                                {
+                                                    "examples": [],
+                                                    "mediaType": "application/json",
+                                                    "encoding": null,
+                                                    "schema": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "id": {
+                                                                "type": "integer",
+                                                                "description": "Unique platform ID",
+                                                                "format": "int32",
+                                                                "example": 14
+                                                            },
+                                                            "n": {
+                                                                "type": "string",
+                                                                "description": "Platform name",
+                                                                "example": "Ethereum"
+                                                            },
+                                                            "i": {
+                                                                "type": "string",
+                                                                "description": "Icon URL for the platform",
+                                                                "example": "https://cdn.example.com/icons/eth.png"
+                                                            },
+                                                            "uf": {
+                                                                "type": "string",
+                                                                "description": "URL format for block explorer (contract/token)",
+                                                                "example": "https://etherscan.io/token/{tokenAddress}"
+                                                            },
+                                                            "dn": {
+                                                                "type": "string",
+                                                                "description": "Number of supported DEXs on this platform",
+                                                                "example": "12"
+                                                            },
+                                                            "txuf": {
+                                                                "type": "string",
+                                                                "description": "URL format for viewing transactions",
+                                                                "example": "https://etherscan.io/tx/{txHash}"
+                                                            },
+                                                            "v": {
+                                                                "type": "boolean",
+                                                                "description": "Whether the platform is visible in the UI",
+                                                                "example": true
+                                                            },
+                                                            "p": {
+                                                                "type": "boolean",
+                                                                "description": "Whether the platform is pinned (e.g., prioritized display)",
+                                                                "example": false
+                                                            },
+                                                            "addrUrl": {
+                                                                "type": "string",
+                                                                "description": "URL format for address explorer",
+                                                                "example": "https://etherscan.io/address/{address}"
+                                                            },
+                                                            "chId": {
+                                                                "type": "integer",
+                                                                "description": "Internal chain ID",
+                                                                "format": "int32",
+                                                                "example": 1
+                                                            },
+                                                            "puf": {
+                                                                "type": "string",
+                                                                "description": "URL format for pool explorer",
+                                                                "example": "https://dexscan.io/pool/{poolAddress}"
+                                                            },
+                                                            "wcId": {
+                                                                "type": "integer",
+                                                                "description": "Wrapped native token ID (e.g., WETH)",
+                                                                "format": "int32",
+                                                                "example": 2001
+                                                            },
+                                                            "hl": {
+                                                                "type": "integer",
+                                                                "description": "Whether the platform is highlighted",
+                                                                "format": "int32",
+                                                                "example": 1
+                                                            },
+                                                            "ho": {
+                                                                "type": "integer",
+                                                                "description": "Display order for highlighted platforms",
+                                                                "format": "int32",
+                                                                "example": 3
+                                                            },
+                                                            "pltA": {
+                                                                "type": "string",
+                                                                "description": "platform acronym",
+                                                                "example": "ETH"
+                                                            },
+                                                            "cid": {
+                                                                "type": "integer",
+                                                                "format": "int32"
+                                                            }
+                                                        },
+                                                        "description": "Data Transfer Object representing a supported blockchain platform",
+                                                        "__$ref": "#/components/schemas/PlatformDTO"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "extensions": {},
+                            "next": {
+                                "name": "Holder",
+                                "slug": "holder",
+                                "extensions": {}
+                            },
+                            "prev": {
+                                "name": "Token",
+                                "slug": "token",
+                                "extensions": {}
+                            }
+                        }
+                    }
+                },
+                "dataUpdateCount": 1,
+                "dataUpdatedAt": 1778138179626,
+                "error": null,
+                "errorUpdateCount": 0,
+                "errorUpdatedAt": 0,
+                "fetchFailureCount": 0,
+                "fetchFailureReason": null,
+                "fetchMeta": null,
+                "isInvalidated": false,
+                "status": "success",
+                "fetchStatus": "idle"
+            },
+            "queryKey": [
+                "query OperationsForTag($input: JSON!, $type: SchemaType!, $tag: String, $untagged: Boolean) { schema(input: $input, type: $type) { servers { url } description summary title url version tag(slug: $tag, untagged: $untagged) { name description operations { slug ...OperationsFragment } extensions next { name slug extensions } prev { name slug extensions } } } } fragment OperationsFragment on OperationItem { slug summary method description operationId contentTypes path deprecated extensions servers { url description } parameters { name in description required schema style explode allowReserved examples { name description externalValue value summary } } security { schemes { scopes scheme { name type description in paramName scheme bearerFormat openIdConnectUrl flows { implicit { authorizationUrl scopes { name description } } password { tokenUrl scopes { name description } } clientCredentials { tokenUrl scopes { name description } } authorizationCode { authorizationUrl tokenUrl scopes { name description } } } } } } requestBody { content { mediaType encoding { name } examples { name description externalValue value summary } schema } description required } responses { statusCode links description content { examples { name description externalValue value summary } mediaType encoding { name } schema } } }",
+                {
+                    "input": "/opt/cmc/node_modules/.zudoku/processed/pro-api-reference-openapi.json.js",
+                    "type": "file",
+                    "tag": "platform"
+                }
+            ],
+            "queryHash": "[\"query OperationsForTag($input: JSON!, $type: SchemaType!, $tag: String, $untagged: Boolean) { schema(input: $input, type: $type) { servers { url } description summary title url version tag(slug: $tag, untagged: $untagged) { name description operations { slug ...OperationsFragment } extensions next { name slug extensions } prev { name slug extensions } } } } fragment OperationsFragment on OperationItem { slug summary method description operationId contentTypes path deprecated extensions servers { url description } parameters { name in description required schema style explode allowReserved examples { name description externalValue value summary } } security { schemes { scopes scheme { name type description in paramName scheme bearerFormat openIdConnectUrl flows { implicit { authorizationUrl scopes { name description } } password { tokenUrl scopes { name description } } clientCredentials { tokenUrl scopes { name description } } authorizationCode { authorizationUrl tokenUrl scopes { name description } } } } } } requestBody { content { mediaType encoding { name } examples { name description externalValue value summary } schema } description required } responses { statusCode links description content { examples { name description externalValue value summary } mediaType encoding { name } schema } } }\",{\"input\":\"/opt/cmc/node_modules/.zudoku/processed/pro-api-reference-openapi.json.js\",\"tag\":\"platform\",\"type\":\"file\"}]"
+        },
+        {
+            "dehydratedAt": 1778138179690,
+            "state": {
+                "dataUpdateCount": 0,
+                "dataUpdatedAt": 0,
+                "error": null,
+                "errorUpdateCount": 0,
+                "errorUpdatedAt": 0,
+                "fetchFailureCount": 0,
+                "fetchFailureReason": null,
+                "fetchMeta": null,
+                "isInvalidated": false,
+                "status": "pending",
+                "fetchStatus": "idle"
+            },
+            "queryKey": [
+                "query SchemaWarmup($input: JSON!, $type: SchemaType!) { schema(input: $input, type: $type) { openapi } }",
+                {
+                    "input": "/opt/cmc/node_modules/.zudoku/processed/pro-api-reference-openapi.json.js",
+                    "type": "file"
+                }
+            ],
+            "queryHash": "[\"query SchemaWarmup($input: JSON!, $type: SchemaType!) { schema(input: $input, type: $type) { openapi } }\",{\"input\":\"/opt/cmc/node_modules/.zudoku/processed/pro-api-reference-openapi.json.js\",\"type\":\"file\"}]"
+        },
+        {
+            "dehydratedAt": 1778138179690,
+            "state": {
+                "dataUpdateCount": 0,
+                "dataUpdatedAt": 0,
+                "error": null,
+                "errorUpdateCount": 0,
+                "errorUpdatedAt": 0,
+                "fetchFailureCount": 0,
+                "fetchFailureReason": null,
+                "fetchMeta": null,
+                "isInvalidated": false,
+                "status": "pending",
+                "fetchStatus": "idle"
+            },
+            "queryKey": [
+                "api-identities"
+            ],
+            "queryHash": "[\"api-identities\"]"
+        },
+        {
+            "dehydratedAt": 1778138179690,
+            "state": {
+                "data": {
+                    "schema": {
+                        "url": "https://pro-api.coinmarketcap.com",
+                        "servers": [
+                            {
+                                "url": "https://pro-api.coinmarketcap.com"
+                            }
+                        ]
+                    }
+                },
+                "dataUpdateCount": 1,
+                "dataUpdatedAt": 1778138179684,
+                "error": null,
+                "errorUpdateCount": 0,
+                "errorUpdatedAt": 0,
+                "fetchFailureCount": 0,
+                "fetchFailureReason": null,
+                "fetchMeta": null,
+                "isInvalidated": false,
+                "status": "success",
+                "fetchStatus": "idle"
+            },
+            "queryKey": [
+                "query ServersQuery($input: JSON!, $type: SchemaType!) { schema(input: $input, type: $type) { url servers { url } } }",
+                {
+                    "input": "/opt/cmc/node_modules/.zudoku/processed/pro-api-reference-openapi.json.js",
+                    "type": "file"
+                }
+            ],
+            "queryHash": "[\"query ServersQuery($input: JSON!, $type: SchemaType!) { schema(input: $input, type: $type) { url servers { url } } }\",{\"input\":\"/opt/cmc/node_modules/.zudoku/processed/pro-api-reference-openapi.json.js\",\"type\":\"file\"}]"
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+This endpoint provides information about exchange assets.

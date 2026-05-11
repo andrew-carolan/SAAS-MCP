@@ -1,0 +1,1 @@
+This endpoint provides the latest market pairs data.

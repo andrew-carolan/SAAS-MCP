@@ -1,0 +1,2231 @@
+{
+    "mutations": [],
+    "queries": [
+        {
+            "dehydratedAt": 1778138179680,
+            "state": {
+                "dataUpdateCount": 0,
+                "dataUpdatedAt": 0,
+                "error": null,
+                "errorUpdateCount": 0,
+                "errorUpdatedAt": 0,
+                "fetchFailureCount": 0,
+                "fetchFailureReason": null,
+                "fetchMeta": null,
+                "isInvalidated": false,
+                "status": "pending",
+                "fetchStatus": "idle"
+            },
+            "queryKey": [
+                "zuplo-build-check",
+                null,
+                "/__zuplo/docs"
+            ],
+            "queryHash": "[\"zuplo-build-check\",null,\"/__zuplo/docs\"]"
+        },
+        {
+            "dehydratedAt": 1778138179680,
+            "state": {
+                "dataUpdateCount": 0,
+                "dataUpdatedAt": 0,
+                "error": null,
+                "errorUpdateCount": 0,
+                "errorUpdatedAt": 0,
+                "fetchFailureCount": 0,
+                "fetchFailureReason": null,
+                "fetchMeta": null,
+                "isInvalidated": false,
+                "status": "pending",
+                "fetchStatus": "idle"
+            },
+            "queryKey": [
+                "refresh-user-profile"
+            ],
+            "queryHash": "[\"refresh-user-profile\"]"
+        },
+        {
+            "dehydratedAt": 1778138179680,
+            "state": {
+                "data": [
+                    {
+                        "type": "link",
+                        "to": "/pro-api-reference",
+                        "label": "Information"
+                    },
+                    {
+                        "type": "category",
+                        "label": "Pro API",
+                        "items": [
+                            {
+                                "type": "category",
+                                "label": "Cryptocurrency",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/cryptocurrency",
+                                    "file": "/pro-api-reference/cryptocurrency",
+                                    "label": "Cryptocurrency"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Airdrop",
+                                        "to": "/pro-api-reference/cryptocurrency#airdrop",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Airdrops",
+                                        "to": "/pro-api-reference/cryptocurrency#airdrops",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Categories",
+                                        "to": "/pro-api-reference/cryptocurrency#categories",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Category",
+                                        "to": "/pro-api-reference/cryptocurrency#category",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "CoinMarketCap ID Map",
+                                        "to": "/pro-api-reference/cryptocurrency#coinmarketcap-id-map",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Cryptocurrency Metadata",
+                                        "to": "/pro-api-reference/cryptocurrency#cryptocurrency-metadata",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Listings Historical",
+                                        "to": "/pro-api-reference/cryptocurrency#listings-historical",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Listings Latest",
+                                        "to": "/pro-api-reference/cryptocurrency#listings-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Listings New",
+                                        "to": "/pro-api-reference/cryptocurrency#listings-new",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Trending Gainers & Losers",
+                                        "to": "/pro-api-reference/cryptocurrency#trending-gainers-losers",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Trending Latest",
+                                        "to": "/pro-api-reference/cryptocurrency#trending-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Trending Most Visited",
+                                        "to": "/pro-api-reference/cryptocurrency#trending-most-visited",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Cryptocurrency Market Pairs Latest",
+                                        "to": "/pro-api-reference/cryptocurrency#cryptocurrency-market-pairs-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "OHLCV Historical",
+                                        "to": "/pro-api-reference/cryptocurrency#ohlcv-historical",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "OHLCV Latest",
+                                        "to": "/pro-api-reference/cryptocurrency#ohlcv-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Price Performance Stats",
+                                        "to": "/pro-api-reference/cryptocurrency#price-performance-stats",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Cryptocurrency Quotes Historical",
+                                        "to": "/pro-api-reference/cryptocurrency#cryptocurrency-quotes-historical",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Cryptocurrency Quotes Latest",
+                                        "to": "/pro-api-reference/cryptocurrency#cryptocurrency-quotes-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Cryptocurrency Listings",
+                                        "to": "/pro-api-reference/cryptocurrency#cryptocurrency-listings",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Simple Price",
+                                        "to": "/pro-api-reference/cryptocurrency#simple-price",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "Exchange",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/exchange",
+                                    "file": "/pro-api-reference/exchange",
+                                    "label": "Exchange"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Exchange Assets",
+                                        "to": "/pro-api-reference/exchange#exchange-assets",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Metadata",
+                                        "to": "/pro-api-reference/exchange#metadata",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "CoinMarketCap ID Map",
+                                        "to": "/pro-api-reference/exchange#coinmarketcap-id-map-2",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Exchange Listings Latest",
+                                        "to": "/pro-api-reference/exchange#exchange-listings-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Market Pairs Latest",
+                                        "to": "/pro-api-reference/exchange#market-pairs-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Quotes Historical",
+                                        "to": "/pro-api-reference/exchange#quotes-historical",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Quotes Latest",
+                                        "to": "/pro-api-reference/exchange#quotes-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "Global Metrics",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/global-metrics",
+                                    "file": "/pro-api-reference/global-metrics",
+                                    "label": "Global Metrics"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "CMC Crypto Fear and Greed Historical",
+                                        "to": "/pro-api-reference/global-metrics#cmc-crypto-fear-and-greed-historical",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "CMC Crypto Fear and Greed Latest",
+                                        "to": "/pro-api-reference/global-metrics#cmc-crypto-fear-and-greed-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Quotes Historical",
+                                        "to": "/pro-api-reference/global-metrics#quotes-historical-2",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Quotes Latest",
+                                        "to": "/pro-api-reference/global-metrics#quotes-latest-2",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Altcoin Season Index Latest",
+                                        "to": "/pro-api-reference/global-metrics#altcoin-season-index-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Altcoin Season Index Historical",
+                                        "to": "/pro-api-reference/global-metrics#altcoin-season-index-historical",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "Content",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/content",
+                                    "file": "/pro-api-reference/content",
+                                    "label": "Content"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Content Latest",
+                                        "to": "/pro-api-reference/content#content-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Content Post Comments",
+                                        "to": "/pro-api-reference/content#content-post-comments",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Content Latest Posts",
+                                        "to": "/pro-api-reference/content#content-latest-posts",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Content Top Posts",
+                                        "to": "/pro-api-reference/content#content-top-posts",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "Community",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/community",
+                                    "file": "/pro-api-reference/community",
+                                    "label": "Community"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Community Trending Tokens",
+                                        "to": "/pro-api-reference/community#community-trending-tokens",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Community Trending Topics",
+                                        "to": "/pro-api-reference/community#community-trending-topics",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "CMC Index",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/cmc-index",
+                                    "file": "/pro-api-reference/cmc-index",
+                                    "label": "CMC Index"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "CoinMarketCap 100 Index Historical",
+                                        "to": "/pro-api-reference/cmc-index#coinmarketcap-100-index-historical",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "CoinMarketCap 100 Index Latest",
+                                        "to": "/pro-api-reference/cmc-index#coinmarketcap-100-index-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "CoinMarketCap 20 Index Historical",
+                                        "to": "/pro-api-reference/cmc-index#coinmarketcap-20-index-historical",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "CoinMarketCap 20 Index Latest",
+                                        "to": "/pro-api-reference/cmc-index#coinmarketcap-20-index-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "Crypto Others",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/crypto-others",
+                                    "file": "/pro-api-reference/crypto-others",
+                                    "label": "Crypto Others"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Statistics Latest",
+                                        "to": "/pro-api-reference/crypto-others#statistics-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": true,
+                        "collapsed": true
+                    },
+                    {
+                        "type": "category",
+                        "label": "Dex API",
+                        "items": [
+                            {
+                                "type": "category",
+                                "label": "Token",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/token",
+                                    "file": "/pro-api-reference/token",
+                                    "label": "Token"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Get trending tokens",
+                                        "to": "/pro-api-reference/token#get-trending-tokens",
+                                        "badge": {
+                                            "label": "post",
+                                            "color": "blue",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Batch query tokens",
+                                        "to": "/pro-api-reference/token#batch-query-tokens",
+                                        "badge": {
+                                            "label": "post",
+                                            "color": "blue",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Batch get token prices",
+                                        "to": "/pro-api-reference/token#batch-get-token-prices",
+                                        "badge": {
+                                            "label": "post",
+                                            "color": "blue",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get new tokens",
+                                        "to": "/pro-api-reference/token#get-new-tokens",
+                                        "badge": {
+                                            "label": "post",
+                                            "color": "blue",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get meme tokens",
+                                        "to": "/pro-api-reference/token#get-meme-tokens",
+                                        "badge": {
+                                            "label": "post",
+                                            "color": "blue",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get top gainers and losers",
+                                        "to": "/pro-api-reference/token#get-top-gainers-and-losers",
+                                        "badge": {
+                                            "label": "post",
+                                            "color": "blue",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Pairs Listings Latest",
+                                        "to": "/pro-api-reference/token#pairs-listings-latest",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Quotes Latest",
+                                        "to": "/pro-api-reference/token#quotes-latest-3",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get token detail",
+                                        "to": "/pro-api-reference/token#get-token-detail",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get token price",
+                                        "to": "/pro-api-reference/token#get-token-price",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get token pools",
+                                        "to": "/pro-api-reference/token#get-token-pools",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Query token liquidity",
+                                        "to": "/pro-api-reference/token#query-token-liquidity",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get swap list",
+                                        "to": "/pro-api-reference/token#get-swap-list",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get security detail",
+                                        "to": "/pro-api-reference/token#get-security-detail",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Search tokens",
+                                        "to": "/pro-api-reference/token#search-tokens",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get liquidity change list",
+                                        "to": "/pro-api-reference/token#get-liquidity-change-list",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "Platform",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/platform",
+                                    "file": "/pro-api-reference/platform",
+                                    "label": "Platform"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Get platform list",
+                                        "to": "/pro-api-reference/platform#get-platform-list",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get platform detail",
+                                        "to": "/pro-api-reference/platform#get-platform-detail",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "Holder",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/holder",
+                                    "file": "/pro-api-reference/holder",
+                                    "label": "Holder"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Get holders list",
+                                        "to": "/pro-api-reference/holder#get-holders-list",
+                                        "badge": {
+                                            "label": "post",
+                                            "color": "blue",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get holder detail",
+                                        "to": "/pro-api-reference/holder#get-holder-detail",
+                                        "badge": {
+                                            "label": "post",
+                                            "color": "blue",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get holder trend list",
+                                        "to": "/pro-api-reference/holder#get-holder-trend-list",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get holder tag count",
+                                        "to": "/pro-api-reference/holder#get-holder-tag-count",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get holder count",
+                                        "to": "/pro-api-reference/holder#get-holder-count",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "category",
+                                "label": "OHLCV",
+                                "link": {
+                                    "type": "doc",
+                                    "path": "/pro-api-reference/ohlcv",
+                                    "file": "/pro-api-reference/ohlcv",
+                                    "label": "OHLCV"
+                                },
+                                "collapsible": true,
+                                "collapsed": true,
+                                "items": [
+                                    {
+                                        "type": "link",
+                                        "label": "Get K-line points",
+                                        "to": "/pro-api-reference/ohlcv#get-k-line-points",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    },
+                                    {
+                                        "type": "link",
+                                        "label": "Get K-line candles",
+                                        "to": "/pro-api-reference/ohlcv#get-k-line-candles",
+                                        "badge": {
+                                            "label": "get",
+                                            "color": "green",
+                                            "invert": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": true,
+                        "collapsed": true
+                    },
+                    {
+                        "type": "category",
+                        "label": "Tools",
+                        "link": {
+                            "type": "doc",
+                            "path": "/pro-api-reference/tools",
+                            "file": "/pro-api-reference/tools",
+                            "label": "Tools"
+                        },
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "type": "link",
+                                "label": "Fiat ID Map",
+                                "to": "/pro-api-reference/tools#fiat-id-map",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Key Info",
+                                "to": "/pro-api-reference/tools#key-info",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Postman Conversion v1",
+                                "to": "/pro-api-reference/tools#postman-conversion-v1",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Price Conversion v2",
+                                "to": "/pro-api-reference/tools#price-conversion-v2",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "category",
+                        "label": "Deprecated",
+                        "link": {
+                            "type": "doc",
+                            "path": "/pro-api-reference/deprecated",
+                            "file": "/pro-api-reference/deprecated",
+                            "label": "Deprecated"
+                        },
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "type": "link",
+                                "label": "Metadata v1 (deprecated)",
+                                "to": "/pro-api-reference/deprecated#metadata-v1-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Price Conversion v1 (deprecated)",
+                                "to": "/pro-api-reference/deprecated#price-conversion-v1-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Market Pairs Latest v1 (deprecated)",
+                                "to": "/pro-api-reference/deprecated#market-pairs-latest-v1-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "OHLCV Historical v1 (deprecated)",
+                                "to": "/pro-api-reference/deprecated#ohlcv-historical-v1-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "OHLCV Latest v1 (deprecated)",
+                                "to": "/pro-api-reference/deprecated#ohlcv-latest-v1-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Price Performance Stats v1 (deprecated)",
+                                "to": "/pro-api-reference/deprecated#price-performance-stats-v1-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Quotes Historical v1 (deprecated)",
+                                "to": "/pro-api-reference/deprecated#quotes-historical-v1-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Quotes Latest v1 (deprecated)",
+                                "to": "/pro-api-reference/deprecated#quotes-latest-v1-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Quotes Historical v2",
+                                "to": "/pro-api-reference/deprecated#quotes-historical-v2",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Quotes Latest v2",
+                                "to": "/pro-api-reference/deprecated#quotes-latest-v2",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "FCAS Listings Latest (deprecated)",
+                                "to": "/pro-api-reference/deprecated#fcas-listings-latest-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "FCAS Quotes Latest (deprecated)",
+                                "to": "/pro-api-reference/deprecated#fcas-quotes-latest-deprecated",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "Trades Latest",
+                                "to": "/pro-api-reference/deprecated#trades-latest",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "OHLCV Latest",
+                                "to": "/pro-api-reference/deprecated#ohlcv-latest-2",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "OHLCV Historical",
+                                "to": "/pro-api-reference/deprecated#ohlcv-historical-2",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "CoinMarketCap ID Map",
+                                "to": "/pro-api-reference/deprecated#coinmarketcap-id-map-3",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "DEX Listings Latest",
+                                "to": "/pro-api-reference/deprecated#dex-listings-latest",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "label": "DEX Metadata",
+                                "to": "/pro-api-reference/deprecated#dex-metadata",
+                                "badge": {
+                                    "label": "get",
+                                    "color": "green",
+                                    "invert": true
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "link",
+                        "label": "Schemas",
+                        "to": "/pro-api-reference/~schemas"
+                    }
+                ],
+                "dataUpdateCount": 1,
+                "dataUpdatedAt": 1778138179605,
+                "error": null,
+                "errorUpdateCount": 0,
+                "errorUpdatedAt": 0,
+                "fetchFailureCount": 0,
+                "fetchFailureReason": null,
+                "fetchMeta": null,
+                "isInvalidated": false,
+                "status": "success",
+                "fetchStatus": "idle"
+            },
+            "queryKey": [
+                "plugin-navigation",
+                "/pro-api-reference/community"
+            ],
+            "queryHash": "[\"plugin-navigation\",\"/pro-api-reference/community\"]"
+        },
+        {
+            "dehydratedAt": 1778138179680,
+            "state": {
+                "data": {
+                    "schema": {
+                        "servers": [
+                            {
+                                "url": "https://pro-api.coinmarketcap.com"
+                            }
+                        ],
+                        "description": "Modern API for cryptocurrency data. Get real-time prices, market data, listings, and historical information through powerful developer endpoints.",
+                        "summary": null,
+                        "title": "CoinMarketCap Cryptocurrency API Documentation",
+                        "url": "https://pro-api.coinmarketcap.com",
+                        "version": "2.0.4",
+                        "tag": {
+                            "name": "Community",
+                            "description": "##### Endpoints for community data. This category includes 2 endpoints:\n- [/v1/community/trending/topic](/pro-api-reference/community#community-trending-topics) - Community Trending Topics\n- [/v1/community/trending/token](/pro-api-reference/community#community-trending-tokens) - Community Trending Tokens",
+                            "operations": [
+                                {
+                                    "slug": "community-trending-tokens",
+                                    "summary": "Community Trending Tokens",
+                                    "method": "get",
+                                    "description": "Returns the latest trending tokens from the CMC Community.\n\n  \n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Standard\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** One Minute\n**Plan credit use:** 0 credit",
+                                    "operationId": "getV1CommunityTrendingToken",
+                                    "contentTypes": [],
+                                    "path": "/v1/community/trending/token",
+                                    "deprecated": null,
+                                    "extensions": {},
+                                    "servers": [
+                                        {
+                                            "url": "https://pro-api.coinmarketcap.com",
+                                            "description": null
+                                        }
+                                    ],
+                                    "parameters": [
+                                        {
+                                            "name": "X-CMC_PRO_API_KEY",
+                                            "in": "header",
+                                            "description": "Your CoinMarketCap Pro API key",
+                                            "required": true,
+                                            "schema": {
+                                                "type": "string",
+                                                "default": "YOUR_API_KEY"
+                                            },
+                                            "style": null,
+                                            "explode": null,
+                                            "allowReserved": null,
+                                            "examples": []
+                                        },
+                                        {
+                                            "name": "limit",
+                                            "in": "query",
+                                            "description": "Optionally specify the number of results to return.",
+                                            "required": null,
+                                            "schema": {
+                                                "type": "integer",
+                                                "minimum": 1,
+                                                "maximum": 5,
+                                                "default": 5
+                                            },
+                                            "style": null,
+                                            "explode": null,
+                                            "allowReserved": null,
+                                            "examples": []
+                                        }
+                                    ],
+                                    "security": [
+                                        {
+                                            "schemes": [
+                                                {
+                                                    "scopes": [],
+                                                    "scheme": {
+                                                        "name": "ApiKeyAuth",
+                                                        "type": "apiKey",
+                                                        "description": "Your CoinMarketCap Pro API key. Get one at https://pro.coinmarketcap.com/signup",
+                                                        "in": "header",
+                                                        "paramName": "X-CMC_PRO_API_KEY",
+                                                        "scheme": null,
+                                                        "bearerFormat": null,
+                                                        "openIdConnectUrl": null,
+                                                        "flows": null
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "requestBody": {
+                                        "content": [],
+                                        "description": null,
+                                        "required": null
+                                    },
+                                    "responses": [
+                                        {
+                                            "statusCode": "200",
+                                            "links": null,
+                                            "description": "Successful",
+                                            "content": [
+                                                {
+                                                    "examples": [],
+                                                    "mediaType": "application/json",
+                                                    "encoding": null,
+                                                    "schema": {
+                                                        "type": "object",
+                                                        "example": {
+                                                            "data": [
+                                                                {
+                                                                    "id": 7102,
+                                                                    "name": "Linear Finance",
+                                                                    "symbol": "LINA",
+                                                                    "slug": "linear",
+                                                                    "cmc_rank": 461,
+                                                                    "rank": 1
+                                                                },
+                                                                {
+                                                                    "id": 26265,
+                                                                    "name": "NiHao",
+                                                                    "symbol": "NIHAO",
+                                                                    "slug": "nihao",
+                                                                    "cmc_rank": 5000,
+                                                                    "rank": 2
+                                                                },
+                                                                {
+                                                                    "id": 22538,
+                                                                    "name": "T-mac DAO",
+                                                                    "symbol": "TMG",
+                                                                    "slug": "t-mac-dao",
+                                                                    "cmc_rank": 4802,
+                                                                    "rank": 3
+                                                                },
+                                                                {
+                                                                    "id": 2398,
+                                                                    "name": "SelfKey",
+                                                                    "symbol": "KEY",
+                                                                    "slug": "selfkey",
+                                                                    "cmc_rank": 753,
+                                                                    "rank": 4
+                                                                },
+                                                                {
+                                                                    "id": 3437,
+                                                                    "name": "ABBC Coin",
+                                                                    "symbol": "ABBC",
+                                                                    "slug": "abbc-coin",
+                                                                    "cmc_rank": 178,
+                                                                    "rank": 5
+                                                                }
+                                                            ]
+                                                        },
+                                                        "properties": {
+                                                            "data": {
+                                                                "type": "array",
+                                                                "description": "Cntent objects.",
+                                                                "items": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "rank": {
+                                                                            "type": "number",
+                                                                            "description": "The community rank of the coin",
+                                                                            "example": 1
+                                                                        },
+                                                                        "id": {
+                                                                            "type": "integer",
+                                                                            "description": "The unique CoinMarketCap ID for this cryptocurrency.",
+                                                                            "example": 1
+                                                                        },
+                                                                        "name": {
+                                                                            "type": "string",
+                                                                            "description": "The name of this cryptocurrency.",
+                                                                            "example": "Bitcoin"
+                                                                        },
+                                                                        "symbol": {
+                                                                            "type": "string",
+                                                                            "description": "The ticker symbol for this cryptocurrency.",
+                                                                            "example": "BTC"
+                                                                        },
+                                                                        "slug": {
+                                                                            "type": "string",
+                                                                            "description": "The web URL friendly shorthand version of this cryptocurrency name.",
+                                                                            "example": "bitcoin"
+                                                                        },
+                                                                        "cmc_rank": {
+                                                                            "type": "integer",
+                                                                            "description": "The cryptocurrency's CoinMarketCap rank by market cap.",
+                                                                            "example": 5
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "id",
+                                                                        "name",
+                                                                        "symbol",
+                                                                        "slug"
+                                                                    ],
+                                                                    "__$ref": "#/components/schemas/Community_Trending_Token_-Results-Object"
+                                                                },
+                                                                "__$ref": "#/components/schemas/Community_Trending_Token_-_Results"
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "data"
+                                                        ],
+                                                        "__$ref": "#/components/schemas/Community_Trending_Token_-_Response_Model"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "statusCode": "400",
+                                            "links": null,
+                                            "description": "Bad Request",
+                                            "content": [
+                                                {
+                                                    "examples": [],
+                                                    "mediaType": "application/json",
+                                                    "encoding": null,
+                                                    "schema": {
+                                                        "type": "object",
+                                                        "description": "Bad Request",
+                                                        "properties": {
+                                                            "status": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "timestamp": {
+                                                                        "type": "string",
+                                                                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+                                                                        "description": "Current ISO 8601 timestamp on the server.",
+                                                                        "example": "2018-06-02T22:51:28.209Z"
+                                                                    },
+                                                                    "error_code": {
+                                                                        "type": "integer",
+                                                                        "description": "An internal error code for the current error. If a unique platform error code is not available the HTTP status code is returned.",
+                                                                        "example": 400,
+                                                                        "default": 400
+                                                                    },
+                                                                    "error_message": {
+                                                                        "type": "string",
+                                                                        "description": "An error message to go along with the error code.",
+                                                                        "example": "Invalid value for \\\"id\\\""
+                                                                    },
+                                                                    "elapsed": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of milliseconds taken to generate this response",
+                                                                        "example": 10
+                                                                    },
+                                                                    "credit_count": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of API call credits required for this call. Always 0 for errors.",
+                                                                        "example": 0
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "timestamp",
+                                                                    "error_code",
+                                                                    "error_message",
+                                                                    "elapsed",
+                                                                    "credit_count"
+                                                                ],
+                                                                "__$ref": "#/components/schemas/status"
+                                                            }
+                                                        },
+                                                        "__$ref": "#/components/schemas/HTTP_Status_400_Error_Object"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "statusCode": "401",
+                                            "links": null,
+                                            "description": "Unauthorized",
+                                            "content": [
+                                                {
+                                                    "examples": [],
+                                                    "mediaType": "application/json",
+                                                    "encoding": null,
+                                                    "schema": {
+                                                        "type": "object",
+                                                        "description": "Unauthorized",
+                                                        "properties": {
+                                                            "status": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "timestamp": {
+                                                                        "type": "string",
+                                                                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+                                                                        "description": "Current ISO 8601 timestamp on the server.",
+                                                                        "example": "2018-06-02T22:51:28.209Z"
+                                                                    },
+                                                                    "error_code": {
+                                                                        "type": "integer",
+                                                                        "description": "An internal error code for the current error. If a unique platform error code is not available the HTTP status code is returned.",
+                                                                        "example": 1002,
+                                                                        "default": 401
+                                                                    },
+                                                                    "error_message": {
+                                                                        "type": "string",
+                                                                        "description": "An error message to go along with the error code.",
+                                                                        "example": "API key missing."
+                                                                    },
+                                                                    "elapsed": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of milliseconds taken to generate this response",
+                                                                        "example": 10
+                                                                    },
+                                                                    "credit_count": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of API call credits required for this call. Always 0 for errors.",
+                                                                        "example": 0
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "timestamp",
+                                                                    "error_code",
+                                                                    "error_message",
+                                                                    "elapsed",
+                                                                    "credit_count"
+                                                                ],
+                                                                "__$ref": "#/components/schemas/status_1"
+                                                            }
+                                                        },
+                                                        "__$ref": "#/components/schemas/HTTP_Status_401_Error_Object"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "statusCode": "403",
+                                            "links": null,
+                                            "description": "Forbidden",
+                                            "content": [
+                                                {
+                                                    "examples": [],
+                                                    "mediaType": "application/json",
+                                                    "encoding": null,
+                                                    "schema": {
+                                                        "type": "object",
+                                                        "description": "Forbidden",
+                                                        "properties": {
+                                                            "status": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "timestamp": {
+                                                                        "type": "string",
+                                                                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+                                                                        "description": "Current ISO 8601 timestamp on the server.",
+                                                                        "example": "2018-06-02T22:51:28.209Z"
+                                                                    },
+                                                                    "error_code": {
+                                                                        "type": "integer",
+                                                                        "description": "An internal error code for the current error. If a unique platform error code is not available the HTTP status code is returned.",
+                                                                        "example": 1006,
+                                                                        "default": 403
+                                                                    },
+                                                                    "error_message": {
+                                                                        "type": "string",
+                                                                        "description": "An error message to go along with the error code.",
+                                                                        "example": "Your API Key subscription plan doesn't support this endpoint."
+                                                                    },
+                                                                    "elapsed": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of milliseconds taken to generate this response",
+                                                                        "example": 10
+                                                                    },
+                                                                    "credit_count": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of API call credits required for this call. Always 0 for errors.",
+                                                                        "example": 0
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "timestamp",
+                                                                    "error_code",
+                                                                    "error_message",
+                                                                    "elapsed",
+                                                                    "credit_count"
+                                                                ],
+                                                                "__$ref": "#/components/schemas/status_2"
+                                                            }
+                                                        },
+                                                        "__$ref": "#/components/schemas/HTTP_Status_403_Error_Object"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "statusCode": "429",
+                                            "links": null,
+                                            "description": "Too Many Requests",
+                                            "content": [
+                                                {
+                                                    "examples": [],
+                                                    "mediaType": "application/json",
+                                                    "encoding": null,
+                                                    "schema": {
+                                                        "type": "object",
+                                                        "description": "Too Many Requests",
+                                                        "properties": {
+                                                            "status": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "timestamp": {
+                                                                        "type": "string",
+                                                                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+                                                                        "description": "Current ISO 8601 timestamp on the server.",
+                                                                        "example": "2018-06-02T22:51:28.209Z"
+                                                                    },
+                                                                    "error_code": {
+                                                                        "type": "integer",
+                                                                        "description": "An internal error code string for the current error. If a unique platform error code is not available the HTTP status code is returned.",
+                                                                        "example": 1008,
+                                                                        "default": 429
+                                                                    },
+                                                                    "error_message": {
+                                                                        "type": "string",
+                                                                        "description": "An error message to go along with the error code.",
+                                                                        "example": "You've exceeded your API Key's HTTP request rate limit. Rate limits reset every minute."
+                                                                    },
+                                                                    "elapsed": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of milliseconds taken to generate this response",
+                                                                        "example": 10
+                                                                    },
+                                                                    "credit_count": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of API call credits required for this call. Always 0 for errors.",
+                                                                        "example": 0
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "timestamp",
+                                                                    "error_code",
+                                                                    "error_message",
+                                                                    "elapsed",
+                                                                    "credit_count"
+                                                                ],
+                                                                "__$ref": "#/components/schemas/status_3"
+                                                            }
+                                                        },
+                                                        "__$ref": "#/components/schemas/HTTP_Status_429_Error_Object"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "statusCode": "500",
+                                            "links": null,
+                                            "description": "Internal Server Error",
+                                            "content": [
+                                                {
+                                                    "examples": [],
+                                                    "mediaType": "application/json",
+                                                    "encoding": null,
+                                                    "schema": {
+                                                        "type": "object",
+                                                        "description": "Internal Server Error",
+                                                        "properties": {
+                                                            "status": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "timestamp": {
+                                                                        "type": "string",
+                                                                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+                                                                        "description": "Current ISO 8601 timestamp on the server.",
+                                                                        "example": "2018-06-02T22:51:28.209Z"
+                                                                    },
+                                                                    "error_code": {
+                                                                        "type": "integer",
+                                                                        "description": "An internal error code string for the current error. If a unique platform error code is not available the HTTP status code is returned.",
+                                                                        "default": 500,
+                                                                        "enum": [
+                                                                            500
+                                                                        ]
+                                                                    },
+                                                                    "error_message": {
+                                                                        "type": "string",
+                                                                        "description": "An error message to go along with the error code.",
+                                                                        "example": "An internal server error occurred"
+                                                                    },
+                                                                    "elapsed": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of milliseconds taken to generate this response",
+                                                                        "example": 10
+                                                                    },
+                                                                    "credit_count": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of API call credits required for this call. Always 0 for errors.",
+                                                                        "example": 0
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "timestamp",
+                                                                    "error_code",
+                                                                    "error_message",
+                                                                    "elapsed",
+                                                                    "credit_count"
+                                                                ],
+                                                                "__$ref": "#/components/schemas/status_4"
+                                                            }
+                                                        },
+                                                        "__$ref": "#/components/schemas/HTTP_Status_500_Error_Object"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "slug": "community-trending-topics",
+                                    "summary": "Community Trending Topics",
+                                    "method": "get",
+                                    "description": "Returns the latest trending topics from the CMC Community.\n\n  \n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Standard\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** One Minute\n**Plan credit use:** 0 credit",
+                                    "operationId": "getV1CommunityTrendingTopic",
+                                    "contentTypes": [],
+                                    "path": "/v1/community/trending/topic",
+                                    "deprecated": null,
+                                    "extensions": {},
+                                    "servers": [
+                                        {
+                                            "url": "https://pro-api.coinmarketcap.com",
+                                            "description": null
+                                        }
+                                    ],
+                                    "parameters": [
+                                        {
+                                            "name": "X-CMC_PRO_API_KEY",
+                                            "in": "header",
+                                            "description": "Your CoinMarketCap Pro API key",
+                                            "required": true,
+                                            "schema": {
+                                                "type": "string",
+                                                "default": "YOUR_API_KEY"
+                                            },
+                                            "style": null,
+                                            "explode": null,
+                                            "allowReserved": null,
+                                            "examples": []
+                                        },
+                                        {
+                                            "name": "limit",
+                                            "in": "query",
+                                            "description": "Optionally specify the number of results to return.",
+                                            "required": null,
+                                            "schema": {
+                                                "type": "integer",
+                                                "minimum": 1,
+                                                "maximum": 5,
+                                                "default": 5
+                                            },
+                                            "style": null,
+                                            "explode": null,
+                                            "allowReserved": null,
+                                            "examples": []
+                                        }
+                                    ],
+                                    "security": [
+                                        {
+                                            "schemes": [
+                                                {
+                                                    "scopes": [],
+                                                    "scheme": {
+                                                        "name": "ApiKeyAuth",
+                                                        "type": "apiKey",
+                                                        "description": "Your CoinMarketCap Pro API key. Get one at https://pro.coinmarketcap.com/signup",
+                                                        "in": "header",
+                                                        "paramName": "X-CMC_PRO_API_KEY",
+                                                        "scheme": null,
+                                                        "bearerFormat": null,
+                                                        "openIdConnectUrl": null,
+                                                        "flows": null
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "requestBody": {
+                                        "content": [],
+                                        "description": null,
+                                        "required": null
+                                    },
+                                    "responses": [
+                                        {
+                                            "statusCode": "200",
+                                            "links": null,
+                                            "description": "Successful",
+                                            "content": [
+                                                {
+                                                    "examples": [],
+                                                    "mediaType": "application/json",
+                                                    "encoding": null,
+                                                    "schema": {
+                                                        "type": "object",
+                                                        "example": {
+                                                            "data": {
+                                                                "rank": 1,
+                                                                "topic": "Tether"
+                                                            },
+                                                            "status": {
+                                                                "timestamp": "2022-09-08T16:08:52.641Z",
+                                                                "error_code": "0",
+                                                                "error_message": "SUCCESS",
+                                                                "elapsed": "0",
+                                                                "credit_count": 0
+                                                            }
+                                                        },
+                                                        "properties": {
+                                                            "data": {
+                                                                "type": "object",
+                                                                "description": "Cntent objects.",
+                                                                "properties": {
+                                                                    "rank": {
+                                                                        "type": "number",
+                                                                        "description": "The community rank of the topic",
+                                                                        "example": 1
+                                                                    },
+                                                                    "topic": {
+                                                                        "type": "string",
+                                                                        "description": "The trending topic name",
+                                                                        "example": "Bitcoin"
+                                                                    }
+                                                                },
+                                                                "__$ref": "#/components/schemas/Community_Trending_Topic_-_Results"
+                                                            }
+                                                        },
+                                                        "required": [
+                                                            "data"
+                                                        ],
+                                                        "__$ref": "#/components/schemas/Community_Trending_Topic_-_Response_Model"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "statusCode": "400",
+                                            "links": null,
+                                            "description": "Bad Request",
+                                            "content": [
+                                                {
+                                                    "examples": [],
+                                                    "mediaType": "application/json",
+                                                    "encoding": null,
+                                                    "schema": {
+                                                        "type": "object",
+                                                        "description": "Bad Request",
+                                                        "properties": {
+                                                            "status": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "timestamp": {
+                                                                        "type": "string",
+                                                                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+                                                                        "description": "Current ISO 8601 timestamp on the server.",
+                                                                        "example": "2018-06-02T22:51:28.209Z"
+                                                                    },
+                                                                    "error_code": {
+                                                                        "type": "integer",
+                                                                        "description": "An internal error code for the current error. If a unique platform error code is not available the HTTP status code is returned.",
+                                                                        "example": 400,
+                                                                        "default": 400
+                                                                    },
+                                                                    "error_message": {
+                                                                        "type": "string",
+                                                                        "description": "An error message to go along with the error code.",
+                                                                        "example": "Invalid value for \\\"id\\\""
+                                                                    },
+                                                                    "elapsed": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of milliseconds taken to generate this response",
+                                                                        "example": 10
+                                                                    },
+                                                                    "credit_count": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of API call credits required for this call. Always 0 for errors.",
+                                                                        "example": 0
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "timestamp",
+                                                                    "error_code",
+                                                                    "error_message",
+                                                                    "elapsed",
+                                                                    "credit_count"
+                                                                ],
+                                                                "__$ref": "#/components/schemas/status"
+                                                            }
+                                                        },
+                                                        "__$ref": "#/components/schemas/HTTP_Status_400_Error_Object"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "statusCode": "401",
+                                            "links": null,
+                                            "description": "Unauthorized",
+                                            "content": [
+                                                {
+                                                    "examples": [],
+                                                    "mediaType": "application/json",
+                                                    "encoding": null,
+                                                    "schema": {
+                                                        "type": "object",
+                                                        "description": "Unauthorized",
+                                                        "properties": {
+                                                            "status": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "timestamp": {
+                                                                        "type": "string",
+                                                                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+                                                                        "description": "Current ISO 8601 timestamp on the server.",
+                                                                        "example": "2018-06-02T22:51:28.209Z"
+                                                                    },
+                                                                    "error_code": {
+                                                                        "type": "integer",
+                                                                        "description": "An internal error code for the current error. If a unique platform error code is not available the HTTP status code is returned.",
+                                                                        "example": 1002,
+                                                                        "default": 401
+                                                                    },
+                                                                    "error_message": {
+                                                                        "type": "string",
+                                                                        "description": "An error message to go along with the error code.",
+                                                                        "example": "API key missing."
+                                                                    },
+                                                                    "elapsed": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of milliseconds taken to generate this response",
+                                                                        "example": 10
+                                                                    },
+                                                                    "credit_count": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of API call credits required for this call. Always 0 for errors.",
+                                                                        "example": 0
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "timestamp",
+                                                                    "error_code",
+                                                                    "error_message",
+                                                                    "elapsed",
+                                                                    "credit_count"
+                                                                ],
+                                                                "__$ref": "#/components/schemas/status_1"
+                                                            }
+                                                        },
+                                                        "__$ref": "#/components/schemas/HTTP_Status_401_Error_Object"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "statusCode": "403",
+                                            "links": null,
+                                            "description": "Forbidden",
+                                            "content": [
+                                                {
+                                                    "examples": [],
+                                                    "mediaType": "application/json",
+                                                    "encoding": null,
+                                                    "schema": {
+                                                        "type": "object",
+                                                        "description": "Forbidden",
+                                                        "properties": {
+                                                            "status": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "timestamp": {
+                                                                        "type": "string",
+                                                                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+                                                                        "description": "Current ISO 8601 timestamp on the server.",
+                                                                        "example": "2018-06-02T22:51:28.209Z"
+                                                                    },
+                                                                    "error_code": {
+                                                                        "type": "integer",
+                                                                        "description": "An internal error code for the current error. If a unique platform error code is not available the HTTP status code is returned.",
+                                                                        "example": 1006,
+                                                                        "default": 403
+                                                                    },
+                                                                    "error_message": {
+                                                                        "type": "string",
+                                                                        "description": "An error message to go along with the error code.",
+                                                                        "example": "Your API Key subscription plan doesn't support this endpoint."
+                                                                    },
+                                                                    "elapsed": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of milliseconds taken to generate this response",
+                                                                        "example": 10
+                                                                    },
+                                                                    "credit_count": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of API call credits required for this call. Always 0 for errors.",
+                                                                        "example": 0
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "timestamp",
+                                                                    "error_code",
+                                                                    "error_message",
+                                                                    "elapsed",
+                                                                    "credit_count"
+                                                                ],
+                                                                "__$ref": "#/components/schemas/status_2"
+                                                            }
+                                                        },
+                                                        "__$ref": "#/components/schemas/HTTP_Status_403_Error_Object"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "statusCode": "429",
+                                            "links": null,
+                                            "description": "Too Many Requests",
+                                            "content": [
+                                                {
+                                                    "examples": [],
+                                                    "mediaType": "application/json",
+                                                    "encoding": null,
+                                                    "schema": {
+                                                        "type": "object",
+                                                        "description": "Too Many Requests",
+                                                        "properties": {
+                                                            "status": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "timestamp": {
+                                                                        "type": "string",
+                                                                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+                                                                        "description": "Current ISO 8601 timestamp on the server.",
+                                                                        "example": "2018-06-02T22:51:28.209Z"
+                                                                    },
+                                                                    "error_code": {
+                                                                        "type": "integer",
+                                                                        "description": "An internal error code string for the current error. If a unique platform error code is not available the HTTP status code is returned.",
+                                                                        "example": 1008,
+                                                                        "default": 429
+                                                                    },
+                                                                    "error_message": {
+                                                                        "type": "string",
+                                                                        "description": "An error message to go along with the error code.",
+                                                                        "example": "You've exceeded your API Key's HTTP request rate limit. Rate limits reset every minute."
+                                                                    },
+                                                                    "elapsed": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of milliseconds taken to generate this response",
+                                                                        "example": 10
+                                                                    },
+                                                                    "credit_count": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of API call credits required for this call. Always 0 for errors.",
+                                                                        "example": 0
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "timestamp",
+                                                                    "error_code",
+                                                                    "error_message",
+                                                                    "elapsed",
+                                                                    "credit_count"
+                                                                ],
+                                                                "__$ref": "#/components/schemas/status_3"
+                                                            }
+                                                        },
+                                                        "__$ref": "#/components/schemas/HTTP_Status_429_Error_Object"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "statusCode": "500",
+                                            "links": null,
+                                            "description": "Internal Server Error",
+                                            "content": [
+                                                {
+                                                    "examples": [],
+                                                    "mediaType": "application/json",
+                                                    "encoding": null,
+                                                    "schema": {
+                                                        "type": "object",
+                                                        "description": "Internal Server Error",
+                                                        "properties": {
+                                                            "status": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "timestamp": {
+                                                                        "type": "string",
+                                                                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+                                                                        "description": "Current ISO 8601 timestamp on the server.",
+                                                                        "example": "2018-06-02T22:51:28.209Z"
+                                                                    },
+                                                                    "error_code": {
+                                                                        "type": "integer",
+                                                                        "description": "An internal error code string for the current error. If a unique platform error code is not available the HTTP status code is returned.",
+                                                                        "default": 500,
+                                                                        "enum": [
+                                                                            500
+                                                                        ]
+                                                                    },
+                                                                    "error_message": {
+                                                                        "type": "string",
+                                                                        "description": "An error message to go along with the error code.",
+                                                                        "example": "An internal server error occurred"
+                                                                    },
+                                                                    "elapsed": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of milliseconds taken to generate this response",
+                                                                        "example": 10
+                                                                    },
+                                                                    "credit_count": {
+                                                                        "type": "integer",
+                                                                        "description": "Number of API call credits required for this call. Always 0 for errors.",
+                                                                        "example": 0
+                                                                    }
+                                                                },
+                                                                "required": [
+                                                                    "timestamp",
+                                                                    "error_code",
+                                                                    "error_message",
+                                                                    "elapsed",
+                                                                    "credit_count"
+                                                                ],
+                                                                "__$ref": "#/components/schemas/status_4"
+                                                            }
+                                                        },
+                                                        "__$ref": "#/components/schemas/HTTP_Status_500_Error_Object"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "extensions": {},
+                            "next": {
+                                "name": "CMC Index",
+                                "slug": "cmc-index",
+                                "extensions": {}
+                            },
+                            "prev": {
+                                "name": "Content",
+                                "slug": "content",
+                                "extensions": {}
+                            }
+                        }
+                    }
+                },
+                "dataUpdateCount": 1,
+                "dataUpdatedAt": 1778138179626,
+                "error": null,
+                "errorUpdateCount": 0,
+                "errorUpdatedAt": 0,
+                "fetchFailureCount": 0,
+                "fetchFailureReason": null,
+                "fetchMeta": null,
+                "isInvalidated": false,
+                "status": "success",
+                "fetchStatus": "idle"
+            },
+            "queryKey": [
+                "query OperationsForTag($input: JSON!, $type: SchemaType!, $tag: String, $untagged: Boolean) { schema(input: $input, type: $type) { servers { url } description summary title url version tag(slug: $tag, untagged: $untagged) { name description operations { slug ...OperationsFragment } extensions next { name slug extensions } prev { name slug extensions } } } } fragment OperationsFragment on OperationItem { slug summary method description operationId contentTypes path deprecated extensions servers { url description } parameters { name in description required schema style explode allowReserved examples { name description externalValue value summary } } security { schemes { scopes scheme { name type description in paramName scheme bearerFormat openIdConnectUrl flows { implicit { authorizationUrl scopes { name description } } password { tokenUrl scopes { name description } } clientCredentials { tokenUrl scopes { name description } } authorizationCode { authorizationUrl tokenUrl scopes { name description } } } } } } requestBody { content { mediaType encoding { name } examples { name description externalValue value summary } schema } description required } responses { statusCode links description content { examples { name description externalValue value summary } mediaType encoding { name } schema } } }",
+                {
+                    "input": "/opt/cmc/node_modules/.zudoku/processed/pro-api-reference-openapi.json.js",
+                    "type": "file",
+                    "tag": "community"
+                }
+            ],
+            "queryHash": "[\"query OperationsForTag($input: JSON!, $type: SchemaType!, $tag: String, $untagged: Boolean) { schema(input: $input, type: $type) { servers { url } description summary title url version tag(slug: $tag, untagged: $untagged) { name description operations { slug ...OperationsFragment } extensions next { name slug extensions } prev { name slug extensions } } } } fragment OperationsFragment on OperationItem { slug summary method description operationId contentTypes path deprecated extensions servers { url description } parameters { name in description required schema style explode allowReserved examples { name description externalValue value summary } } security { schemes { scopes scheme { name type description in paramName scheme bearerFormat openIdConnectUrl flows { implicit { authorizationUrl scopes { name description } } password { tokenUrl scopes { name description } } clientCredentials { tokenUrl scopes { name description } } authorizationCode { authorizationUrl tokenUrl scopes { name description } } } } } } requestBody { content { mediaType encoding { name } examples { name description externalValue value summary } schema } description required } responses { statusCode links description content { examples { name description externalValue value summary } mediaType encoding { name } schema } } }\",{\"input\":\"/opt/cmc/node_modules/.zudoku/processed/pro-api-reference-openapi.json.js\",\"tag\":\"community\",\"type\":\"file\"}]"
+        },
+        {
+            "dehydratedAt": 1778138179680,
+            "state": {
+                "dataUpdateCount": 0,
+                "dataUpdatedAt": 0,
+                "error": null,
+                "errorUpdateCount": 0,
+                "errorUpdatedAt": 0,
+                "fetchFailureCount": 0,
+                "fetchFailureReason": null,
+                "fetchMeta": null,
+                "isInvalidated": false,
+                "status": "pending",
+                "fetchStatus": "idle"
+            },
+            "queryKey": [
+                "query SchemaWarmup($input: JSON!, $type: SchemaType!) { schema(input: $input, type: $type) { openapi } }",
+                {
+                    "input": "/opt/cmc/node_modules/.zudoku/processed/pro-api-reference-openapi.json.js",
+                    "type": "file"
+                }
+            ],
+            "queryHash": "[\"query SchemaWarmup($input: JSON!, $type: SchemaType!) { schema(input: $input, type: $type) { openapi } }\",{\"input\":\"/opt/cmc/node_modules/.zudoku/processed/pro-api-reference-openapi.json.js\",\"type\":\"file\"}]"
+        },
+        {
+            "dehydratedAt": 1778138179680,
+            "state": {
+                "dataUpdateCount": 0,
+                "dataUpdatedAt": 0,
+                "error": null,
+                "errorUpdateCount": 0,
+                "errorUpdatedAt": 0,
+                "fetchFailureCount": 0,
+                "fetchFailureReason": null,
+                "fetchMeta": null,
+                "isInvalidated": false,
+                "status": "pending",
+                "fetchStatus": "idle"
+            },
+            "queryKey": [
+                "api-identities"
+            ],
+            "queryHash": "[\"api-identities\"]"
+        },
+        {
+            "dehydratedAt": 1778138179680,
+            "state": {
+                "data": {
+                    "schema": {
+                        "url": "https://pro-api.coinmarketcap.com",
+                        "servers": [
+                            {
+                                "url": "https://pro-api.coinmarketcap.com"
+                            }
+                        ]
+                    }
+                },
+                "dataUpdateCount": 1,
+                "dataUpdatedAt": 1778138179675,
+                "error": null,
+                "errorUpdateCount": 0,
+                "errorUpdatedAt": 0,
+                "fetchFailureCount": 0,
+                "fetchFailureReason": null,
+                "fetchMeta": null,
+                "isInvalidated": false,
+                "status": "success",
+                "fetchStatus": "idle"
+            },
+            "queryKey": [
+                "query ServersQuery($input: JSON!, $type: SchemaType!) { schema(input: $input, type: $type) { url servers { url } } }",
+                {
+                    "input": "/opt/cmc/node_modules/.zudoku/processed/pro-api-reference-openapi.json.js",
+                    "type": "file"
+                }
+            ],
+            "queryHash": "[\"query ServersQuery($input: JSON!, $type: SchemaType!) { schema(input: $input, type: $type) { url servers { url } } }\",{\"input\":\"/opt/cmc/node_modules/.zudoku/processed/pro-api-reference-openapi.json.js\",\"type\":\"file\"}]"
+        }
+    ]
+}

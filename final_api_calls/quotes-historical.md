@@ -1,0 +1,1 @@
+This endpoint provides historical quotes data.

@@ -1,0 +1,1 @@
+Build check endpoint is used to verify that your build has a valid and compatible version of the Zuplo SDK. The client must provide a valid authorization token in the 'Authorization' header. It returns an HTTP status code 200 if everything looks good, otherwise it will return a corresponding error message.
